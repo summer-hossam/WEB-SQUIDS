@@ -1,0 +1,21 @@
+# Query: docs
+
+10 results - 5 files
+
+.next\server\app\client\page.js:
+  6: module.exports = runtime.getOrInstantiateRuntimeModule("[project]/new-project-name/node_modules/next/dist/esm/build/templates/app-page.js?page=/docs/page { COMPONENT_0 => \"[project]/new-project-name/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", COMPONENT_1 => \"[project]/new-project-name/app/error.tsx [app-rsc] (ecmascript, Next.js server component)\", COMPONENT_2 => \"[project]/new-project-name/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", COMPONENT_3 => \"[project]/new-project-name/app/docs/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", COMPONENT_4 => \"[project]/new-project-name/app/docs/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript) <facade>", CHUNK_PUBLIC_PATH).exports;
+
+app\client\layout.tsx:
+  1: export default function ClientLayout({
+
+app\client\page.tsx:
+  3: export default function ClientPage() {
+  6:       <h1 className={title()}>Docs</h1>
+
+config\site.ts:
+  65:     docs: "https://nextui.org",
+
+my-project\README.md:
+  21: This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  27: - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+  36: Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

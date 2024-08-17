@@ -1,0 +1,34 @@
+# Query: blo
+
+13 results - 9 files
+
+README.md:
+  53: Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+
+app\page.tsx:
+  16:       <div className="inline-block max-w-lg text-center justify-center">
+
+app\about\layout.tsx:
+  8:       <div className="inline-block max-w-lg text-center justify-center">
+
+app\docs\layout.tsx:
+  8:       <div className="inline-block max-w-lg text-center justify-center">
+
+app\pricing\layout.tsx:
+  8:       <div className="inline-block max-w-lg text-center justify-center">
+
+app\work\layout.tsx:
+  8:       <div className="inline-block max-w-lg text-center justify-center">
+
+components\navbar.tsx:
+  38:         <Kbd className="hidden lg:inline-block" keys={["command"]}>
+
+components\primitives.ts:
+  21:       true: "w-full block",
+  44:   base: "w-full md:w-1/2 my-2 text-lg lg:text-xl text-default-600 block max-w-full",
+
+my-project\app\page.tsx:
+   51:             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+   68:             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+   85:             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+  102:             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
