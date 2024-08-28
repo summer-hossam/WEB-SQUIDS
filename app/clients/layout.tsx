@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import "@/styles/globals.css";
 
-export default function ServicesLayout({
+export default function ContactsLayout({
 children,
 }: {
 children: React.ReactNode;

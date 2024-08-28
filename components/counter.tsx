@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 "use client";
 
 import { useState } from "react";
@@ -7,8 +8,16 @@ export const Counter = () => {
   const [count, setCount] = useState(0);
 
   return (
+    
     <Button radius="full" onPress={() => setCount(count + 1)}>
       Count is {count}
     </Button>
+  );
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
   );
 };

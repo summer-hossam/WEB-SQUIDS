@@ -1,4 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-sort-props */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prettier/prettier */ 
+import React from "react";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -22,7 +25,8 @@ import {
   TwitterIcon,
   GithubIcon,
   DiscordIcon,
-  HeartFilledIcon,
+  // eslint-disable-next-line unused-imports/no-unused-imports
+  LinkIcon,
   SearchIcon,
   Logo,
 } from "@/components/icons";
@@ -54,9 +58,9 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo>
-              <link href="\favicon.ico" rel="icon" sizes="any" />
-            </Logo>
+            <Logo />
+            <link href=" " rel="icon" sizes="any" />  
+            <p className="font-bold text-inherit">WEBSQUIDS</p>
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -95,16 +99,10 @@ export const Navbar = () => {
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
-          <Button
-            isExternal
-            as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
-            href={siteConfig.links.sponsor}
-            startContent={<HeartFilledIcon className="text-danger" />}
-            variant="flat"
-          >
-            Sponsor
-          </Button>
+          <Button 
+          isExternal aria-label="Contact Us"  as={Link}
+            href={siteConfig.links.LinkIcon}
+        variant="flat" > Contact Us</Button>
         </NavbarItem>
       </NavbarContent>
 

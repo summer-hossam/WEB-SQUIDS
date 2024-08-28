@@ -1,6 +1,9 @@
+/* eslint-disable import/order */
+/* eslint-disable prettier/prettier */
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import clsx from "clsx";
+
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
@@ -15,7 +18,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: " ",
   },
 };
 
@@ -27,6 +30,7 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({
+
   children,
 }: {
   children: React.ReactNode;
@@ -43,8 +47,10 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+            <main className="container mx-auto max-w-6xl pt-16 px-6 flex-grow  " >
+              <header/>
               {children}
+              <footer/>
             </main>
           </div>
         </Providers>

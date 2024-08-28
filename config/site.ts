@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -18,12 +19,12 @@ export const siteConfig = {
       href: "/services",
     },
     {
-      label: "Client",
-      href: "/client",
+      label: "Clients",
+      href: "/clients",
     },
     {
-      label: "Contact",
-      href: "/contact",
+      label: "Contacts",
+      href: "/contacts",
     },
   ],
   navMenuItems: [
@@ -65,6 +66,6 @@ export const siteConfig = {
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    LinkIcon:"/contact_us",
   },
 };
